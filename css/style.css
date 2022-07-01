@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Outfit", sans-serif;
+  background-color: hsl(217deg, 54%, 11%);
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.container {
+  margin: 0 auto;
+}
+.container .wrapper {
+  width: 340px;
+  background-color: hsl(216deg, 50%, 16%);
+  border-radius: 15px;
+  padding: 20px;
+}
+.container .wrapper p {
+  color: hsl(215deg, 51%, 70%);
+  font-weight: 300px;
+  font-size: 18px;
+}
+.container .wrapper .equilibrium {
+  width: 300px;
+  height: 300px;
+  border-radius: 15px;
+}
+.container .wrapper .content h1 {
+  color: white;
+  padding: 20px 0;
+  font-weight: 600px;
+  font-size: 20px;
+}
+.container .wrapper .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 15px 0;
+}
+.container .wrapper .grid .left,
+.container .wrapper .grid .right {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .wrapper .grid .left img,
+.container .wrapper .grid .right img {
+  padding-right: 5px;
+}
+.container .wrapper .grid .left {
+  justify-content: flex-start;
+}
+.container .wrapper .grid .left h3 {
+  font-weight: 400;
+  color: hsl(178deg, 100%, 50%);
+  font-size: medium;
+}
+.container .wrapper .grid .right {
+  justify-content: flex-end;
+}
+.container .wrapper .footer {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+  border-top: 1px solid hsl(0deg, 0%, 100%);
+}
+.container .wrapper .footer img {
+  width: 40px;
+  padding-right: 10px;
+}/*# sourceMappingURL=style.css.map */
